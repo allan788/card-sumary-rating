@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Overpass:wght@400;600;700&family=Poppins:wght@100;300;500;700;900&family=Raleway:wght@100;300;500;700&family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Overpass", sans-serif;
+}
+:root {
+  --Orange: #fb7413;
+  --White: #ffffff;
+  --Light-Grey: #959eac;
+  --Medium-Grey: #7c8798;
+  --Dark-Blue: #252d37;
+  --Very-Dark-Blue: #121417;
+}
+body {
+  background-color: #7c8798;
+}
+.container {
+  background-image: linear-gradient(to bottom, #252d37 0%, #121417 100%);
+  width: 21rem;
+  border-radius: 1rem;
+  padding: 1.7rem;
+  border: none;
+  outline: none;
+  margin: 10rem auto;
+}
+.hero {
+  margin-bottom: 1.2rem;
+}
+.hero__img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background-color: var(--Dark-Blue);
+  text-align: center;
+  line-height: 3;
+}
+.hero__start {
+  width: 40%;
+}
+.hero__title {
+  font-weight: 700;
+  color: var(--White);
+}
+.hero__paragraph {
+  color: var(--Light-Grey);
+  font-size: 0.89rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+.form__bottom {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2.2rem;
+  border-radius: 3rem;
+  background-color: var(--Dark-Blue);
+  border: none;
+  outline: none;
+  color: var(--Medium-Grey);
+  cursor: pointer;
+}
+.form__bottom:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+.form__bottom--submit {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: var(--Orange);
+  color: var(--White);
+  font-weight: 700;
+}
+.form__bottom--submit:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+.rating {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.rating__img {
+  width: 8rem;
+}
+.rating__thank {
+  width: 100%;
+}
+.rating__score {
+  font-size: 0.89rem;
+  font-weight: 700;
+  padding: 0.7rem 0.7rem;
+  line-height: 0.8;
+  background-color: var(--Dark-Blue);
+  border-radius: 3rem;
+  color: var(--Orange);
+}
+.hero__paragraph--thankyou {
+  color: var(--White);
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.rating__paragraph {
+  color: var(--Light-Grey);
+  font-size: 0.89rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+.hiden {
+  display: none;
+}
+.checket {
+  background-color: var(--Orange);
+  color: var(--White);
+}
